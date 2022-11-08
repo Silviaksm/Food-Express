@@ -1,11 +1,19 @@
 import './App.css';
-
+import { BrowserRouter, Switch } from 'react-router-dom';
+// falta importar switch y router 
 function App() {
   return (
-    <div className="App">
-      <h1>Henry Countries</h1>
-    </div>
+    <BrowserRouter>
+
+      <div className="App">
+       
+          <h1>Foot Express</h1>
+     
+      </div>
+
+    </BrowserRouter>
   );
+
 }
 
 export default App;
